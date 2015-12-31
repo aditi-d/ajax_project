@@ -7,6 +7,7 @@ function loadData() {
     var $nytElem = $('#nytimes-articles');
     var $greeting = $('#greeting');
 
+
     // clear out old data before new request
     $wikiElem.text("");
     $nytElem.text("");
@@ -42,5 +43,6 @@ function loadData() {
 };
 
 $('#form-container').submit(loadData);
+
 
 // loadData();
